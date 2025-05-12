@@ -18,3 +18,6 @@ Fervian é o website/blog do Margarina feito com HTML, CSS e JS. Ele possui um s
     "htmlContent":"<p>Este é um post de exemplo.</p>"
 }
 ```
+
+## Por que isso existe?
+Eu adoro fazer soluções leves para problemas que não precisam de muita engenharia, sem contar que é perfeito para plataformas de hosting limitadas como [NeoCities](https://neocities.org) e [Infinityfree](https://infinityfree.com)/seus usuários que geralmente são relutantes em usar código complexo nos seus websites.
