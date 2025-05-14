@@ -12,16 +12,16 @@ let creditsProgress = 0;
 
 function credits() {
     const elements = [
-        `<img src="/images/nando.jpg">
+        `<img src="images/nando.jpg">
         <p>Fernando Mandu - mrnandokk</p>`,
-
-        `<img src="/images/tenkuma.jpg">
-        <p>Adrian Victor de Abreu A. - tenkuma</p>
-        <p><i>Fantasy is not a crime, find your castle in the sky.</i></p>`,
-
-        `<img src="/images/sunyuuh.png">
+        
+        `<img src="images/sunyuuh.png">
         <p>Sílvia Holz - Sunyuuh</p>`,
         // <p><i>Fantasy is not a crime, find your castle in the sky.</i></p>`,
+
+        `<img src="images/tenkuma.jpg">
+        <p>Adrian Victor de Abreu A. - tenkuma</p>
+        <p><i>Fantasy is not a crime, find your castle in the sky.</i></p>`,
 
         `<img src="http://margarina.rf.gd/logo.png">
         <p>Margarina Incorporation</p>
