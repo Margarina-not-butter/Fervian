@@ -1,0 +1,52 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fervian</title>
+    <link rel="stylesheet" href="../98.css">
+    <link rel="stylesheet" href="../fervian.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script defer src="../fervian.js"></script>
+    <script defer src="../blogpost.js"></script>
+</head>
+<body>
+    <style>
+        #body-window:hover #body-title-bar {
+        background: linear-gradient(
+        90deg,
+        rgba(255, 0, 0, 1) 0%,
+        rgba(255, 154, 0, 1) 10%,
+        rgba(208, 222, 33, 1) 20%,
+        rgba(79, 220, 74, 1) 30%,
+        rgba(63, 218, 216, 1) 40%,
+        rgba(47, 201, 226, 1) 50%,
+        rgba(28, 127, 238, 1) 60%,
+        rgba(95, 21, 242, 1) 70%,
+        rgba(186, 12, 248, 1) 80%,
+        rgba(251, 7, 217, 1) 90%,
+        rgba(255, 0, 0, 1) 100%
+    );
+    }
+
+    </style>
+    <div class="window" id="body-window">
+        <div class="title-bar" id="body-title-bar">
+            <div class="title-bar-text">Fervian</div>
+            <a href="credits.html"><div class="title-bar-controls">
+                <button aria-label="Help" id="bodyHelp"></button>
+            </div></a>
+        </div>
+        <header>    
+            <!-- #include file="header.html" title="Fervian <span class='rainbow blogTitle'>Blog</span> ;-)" subtitle="..." -->
+        </header>
+        <main class="window-body" id="website-body">
+            <div class="field-row-stacked">
+                <label id="postFetchText">Carregando postagem...</label>
+                <div class="faketextarea" id="blogPostContent" rows="8"></div>
+              </div>
+        </main>
+        <footer class="status-bar">
+            <p class="status-bar-field">2023-2025 by Margarina Inc.</p></div>
+        </div>
+    </body>
+    </html>

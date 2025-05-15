@@ -1,4 +1,18 @@
 :root {
+    --full-rainbow-gradient: linear-gradient(
+        90deg,
+        rgba(255, 0, 0, 1) 0%,
+        rgba(255, 154, 0, 1) 10%,
+        rgba(208, 222, 33, 1) 20%,
+        rgba(79, 220, 74, 1) 30%,
+        rgba(63, 218, 216, 1) 40%,
+        rgba(47, 201, 226, 1) 50%,
+        rgba(28, 127, 238, 1) 60%,
+        rgba(95, 21, 242, 1) 70%,
+        rgba(186, 12, 248, 1) 80%,
+        rgba(251, 7, 217, 1) 90%,
+        rgba(255, 0, 0, 1) 100%
+    );
     margin: 0;
     padding: 0;
 }
@@ -19,15 +33,18 @@ header {
     margin: 0;
 }
 
+#website-body {
+    display: flex;
+    flex-direction: column;
+}
+
 * {
     user-select:none;
 }
 
 #body-window {
-    width: fit-content;
-    max-width: 98vw;
+    width: 10vw;
     margin: auto;
-    min-width: 50vw;
 }
 
 #header-buttons-holder {
@@ -37,6 +54,7 @@ header {
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
+    gap: 10px;
 }
 
 #body-window:hover #body-title-bar {
@@ -60,20 +78,7 @@ header {
 }
 
 .rainbow {
-    background: linear-gradient(
-        90deg,
-        rgba(255, 0, 0, 1) 0%,
-        rgba(255, 154, 0, 1) 10%,
-        rgba(208, 222, 33, 1) 20%,
-        rgba(79, 220, 74, 1) 30%,
-        rgba(63, 218, 216, 1) 40%,
-        rgba(47, 201, 226, 1) 50%,
-        rgba(28, 127, 238, 1) 60%,
-        rgba(95, 21, 242, 1) 70%,
-        rgba(186, 12, 248, 1) 80%,
-        rgba(251, 7, 217, 1) 90%,
-        rgba(255, 0, 0, 1) 100%
-    )!important;
+    background: var(--full-rainbow-gradient)!important;
     -webkit-background-clip: text!important;
     background-clip: text!important;
     color: transparent!important;
@@ -131,9 +136,13 @@ header {
   background: linear-gradient( to right, red 20%, yellow 20%, yellow 36%, green 36%, green 60%, blue 60%, darkblue 100% );
 }
 
-.blog-highlighted {
+.sunken-highlighted {
     background-color: navy;
     color: #fff;
+}
+
+.sunken-highlighted a {
+    color: blueviolet;
 }
 
 .faketextarea {
@@ -186,4 +195,44 @@ header {
 
 .popup-with-image .window-body img {
     height:5vh;
+}
+
+.text-highlight {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.ad {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    padding: 10px;
+}
+
+.ad img {
+    border: 4px groove white;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media screen and (max-width: 2520px) {
+    #body-window {
+        width: 50vw;
+    }
+    
+}
+
+@media screen and (max-width: 1280px) {
+    #body-window {
+        width: 80vw;
+    }
+    
+}
+
+@media screen and (max-width: 720px) {
+    #body-window {
+        width: 90vw;
+    }
+    
 }
