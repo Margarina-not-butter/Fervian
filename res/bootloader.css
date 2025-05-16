@@ -37,6 +37,7 @@ h2:hover {
 h2 {
     margin-left: 30px;
     padding-left: 10px;
+    font-size: x-large;
 }
 
 h2:hover a {

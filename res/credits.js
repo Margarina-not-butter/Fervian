@@ -12,18 +12,18 @@ let creditsProgress = 0;
 
 function credits() {
     const elements = [
-        `<img src="../images/nando.jpg">
+        `<img src="../images/nando.jpg" class="windows-border">
         <p>Fernando Mandu - mrnandokk</p>`,
         
-        `<img src="../images/sunyuuh.png">
+        `<img src="../images/sunyuuh.png" class="windows-border">
         <p>Sílvia Holz - Sunyuuh</p>`,
         // <p><i>Fantasy is not a crime, find your castle in the sky.</i></p>`,
 
-        `<img src="../images/tenkuma.jpg">
+        `<img src="../images/tenkuma.jpg" class="windows-border">
         <p>Adrian Victor de Abreu A. - tenkuma</p>
         <p><i>Fantasy is not a crime, find your castle in the sky.</i></p>`,
 
-        `<img src="http://margarina.rf.gd/logo.png">
+        `<img src="http://margarina.rf.gd/logo.png" class="windows-border">
         <p>Margarina Incorporation</p>
         <p>ArthAttack, c4skaa, e̸n̴t̵i̴d̶a̸d̸e̸, Herculini, mrnandokk, Murailus, Paim, tenkuma <span style="color: red"><3</span> Sunyuuh</p>
         <p><i>Business ass solutions.</i></p>`

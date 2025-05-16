@@ -37,7 +37,7 @@ Você pode usar argumentos de modelo em uma página que será importada, use est
 ## Objetivos
 - [x] Blog client-side
 - [x] Compilador
-  - [ ] Valor padrão para argumentos
+  - [x] Valor padrão para argumentos
 - [ ] Um bolo de verdade
 
 ## Por que isso existe?

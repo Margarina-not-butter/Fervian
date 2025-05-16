@@ -36,7 +36,7 @@ You can use template arguments in a page that will be imported, use this example
 ## Goals
 - [x] Client-side blog
 - [x] Compiler
-  - [ ] Default value for arguments
+  - [x] Default value for arguments
 - [ ] A cake that is real
 
 ## Why this exists?
