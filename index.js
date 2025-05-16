@@ -1,3 +1,2 @@
-const compiler = require('fervian-compiler');
-
+const compiler = require('fervian-component-compiler');
 compiler.autoRun();
